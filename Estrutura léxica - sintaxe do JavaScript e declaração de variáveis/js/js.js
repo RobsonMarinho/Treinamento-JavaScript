@@ -1,3 +1,4 @@
+//Regras de escrita
 var nome = "Pedro";
 var idade = 28;
 var pretensaoSalarial = 3277.22;
