@@ -21,7 +21,7 @@ var vazio = "";
 
 console.log(!!nome);
 console.log(!!preco);
-console.log(!!vazio);
+console.log(!!vazio);   
 console.log("-----");
 
 //6 valores / objetos
