@@ -16,7 +16,7 @@ if(contaStatus == true){
 console.log(!contaStatus);
 
 var nome = "madson";
-var preço = 22.8;
+var preco = 22.8;
 var vazio = "";
 
 console.log(!!nome);
