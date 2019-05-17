@@ -1,6 +1,5 @@
 var nome;
-console.log(nome);
-nome = "Prof. Robson"
+nome = "Prof. Robson";
 console.log(nome);
 
 nome = undefined; //Jamais usar
