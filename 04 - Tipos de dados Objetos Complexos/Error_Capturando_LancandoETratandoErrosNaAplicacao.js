@@ -10,7 +10,6 @@ try {
     //console.log(error);
     console.log(error.name);
     console.log(error.message);
-    console.log(error.stack);
 }finally{
     console.log("Sempre será executado!!!")
 }
