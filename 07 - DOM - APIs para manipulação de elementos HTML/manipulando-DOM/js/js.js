@@ -7,23 +7,35 @@ function selecionarCampos() {
     //alert(nomeBootInputText)
     console.log("recuperar valor com value: " + nomeBootInputText.value);
     //nomeBootInputText.disabled = true;
-    console.log("disabled: nomeBootInputText.disabled = True;")
+    console.log("disabled: nomeBootInputText.disabled = True;");
     nomeBootInputText.readOnly = true;
-    console.log("disabled: nomeBootInputText.readOnly = True;")
+    console.log("disabled: nomeBootInputText.readOnly = True;");
     console.log("tagName: " + nomeBootInputText.tagName);
     console.log("tagName type: " + nomeBootInputText.type);
 }
 
 function selecionarCampoSelect() {
     console.log("object call " + Object.prototype.toString.call(estadoSelect));
-    console.log("estadoSelect.value " + estadoSelect.value)
+    console.log("estadoSelect.value " + estadoSelect.value);
     console.log("estadoSelect.selectIndex " + estadoSelect.selectedIndex);
     console.log("tagName: " + estadoSelect.tagName);
     console.log("tagName type: " + estadoSelect.type);
-    estadoSelect.selectedOptions
-    estadoSelect.selectedOptions.item(0)
-    estadoSelect.selectedOptions[1]
-    estadoSelect.length
-    estadoSelect.disabled = true
+    estadoSelect.selectedOptions;
+    estadoSelect.selectedOptions.item(0);
+    estadoSelect.selectedOptions[1];
+    estadoSelect.length;
+    estadoSelect.disabled = true;
+}
+
+var emailPromocionalCheck = document.querySelector("#emailPromocionalCheckBoot");
+
+function selecionarCampoEmailCheck() {
+    console.log("Object call tipo: ", Object.prototype.toString.call(emailPromocionalCheck));
+    console.log("tagName: " + emailPromocionalCheck.tagName);
+    console.log("tagName type: " + emailPromocionalCheck.type);
+    console.log("Valor value: " + emailPromocionalCheck.value);
+    console.log("Valor checked(marcado): " + emailPromocionalCheck.checked);   //O campo foi ou não marcado
+
+
 
 }
