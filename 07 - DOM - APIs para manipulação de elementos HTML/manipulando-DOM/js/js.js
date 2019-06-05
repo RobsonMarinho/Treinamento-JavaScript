@@ -1,4 +1,5 @@
 var nomeBootInputText = window.document.getElementById("nomeBoot");
+var estadoSelect = document.getElementById("estadoSelectBoot");
 
 function selecionarCampos() {
     console.log("typeof: " + typeof nomeBootInputText);
@@ -11,4 +12,18 @@ function selecionarCampos() {
     console.log("disabled: nomeBootInputText.readOnly = True;")
     console.log("tagName: " + nomeBootInputText.tagName);
     console.log("tagName type: " + nomeBootInputText.type);
+}
+
+function selecionarCampoSelect() {
+    console.log("object call " + Object.prototype.toString.call(estadoSelect));
+    console.log("estadoSelect.value " + estadoSelect.value)
+    console.log("estadoSelect.selectIndex " + estadoSelect.selectedIndex);
+    console.log("tagName: " + estadoSelect.tagName);
+    console.log("tagName type: " + estadoSelect.type);
+    estadoSelect.selectedOptions
+    estadoSelect.selectedOptions.item(0)
+    estadoSelect.selectedOptions[1]
+    estadoSelect.length
+    estadoSelect.disabled = true
+
 }
