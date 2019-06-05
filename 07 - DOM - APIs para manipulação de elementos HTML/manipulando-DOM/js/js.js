@@ -35,7 +35,15 @@ function selecionarCampoEmailCheck() {
     console.log("tagName type: " + emailPromocionalCheck.type);
     console.log("Valor value: " + emailPromocionalCheck.value);
     console.log("Valor checked(marcado): " + emailPromocionalCheck.checked);   //O campo foi ou não marcado
+}
 
+var formaContatoRadio = document.querySelector("[name=formaContatoRadioBoot]");
 
+function selecionarCamporRadio() {
+    console.log("Object call tipo: ", Object.prototype.toString.call(formaContatoRadio));   //Verifica o tipo que vai retornar
+    console.log("tagName: " + formaContatoRadio.tagName);
+    console.log("tagName type: " + formaContatoRadio.type);
+    console.log("Valor value: " + formaContatoRadio.value);
+    console.log("Valor checked(marcado): " + formaContatoRadio.checked);   //O campo foi ou não marcado
 
 }
