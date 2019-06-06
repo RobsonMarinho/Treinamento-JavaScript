@@ -57,3 +57,5 @@ function selecionarCamporRadios() {
 var checkeds = document.getElementsByClassName("checkbox");
 
 var selects = document.getElementsByTagName("select");
+
+var elementos = document.querySelectorAll("input[type=text]");
