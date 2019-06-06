@@ -45,5 +45,15 @@ function selecionarCamporRadio() {
     console.log("tagName type: " + formaContatoRadio.type);
     console.log("Valor value: " + formaContatoRadio.value);
     console.log("Valor checked(marcado): " + formaContatoRadio.checked);   //O campo foi ou não marcado
-
 }
+
+var radios = document.getElementsByName("formaContatoRadioBoot");
+
+function selecionarCamporRadios() {
+
+    console.log("Object call tipo: ", Object.prototype.toString.call(radios));  
+}
+
+var checkeds = document.getElementsByClassName("checkbox");
+
+var selects = document.getElementsByTagName("select");
